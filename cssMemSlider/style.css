@@ -1,0 +1,680 @@
+/* VARIABLES */
+
+:root {
+  --bg-color: rgb(119, 121, 139); /* var(--bg-color); */
+  --main-color: #080a0e; /* var(--main-color); */
+  --ctrl-color: #0a2a52; /* var(--ctrl-color); */
+  --light-color: rgb(194, 194, 206); /* var(--light-color); */
+
+  --header-height: 9vh; /* var(--header-height); */
+  --main-height: 85vh; /* var(--main-height); */
+  --wrapper-height: 73vh; /* var(--wrapper-height); */
+  --slider-width: 55vw; /* var(--slider-width); */
+  --slider-height: 62vh; /* var(--slider-height); */
+  --footer-height: 6vh; /* var(--footer-height); */
+
+  --slider-trans: ease-in-out 1s; /* var(--slider-trans); */
+  --basic-trans: linear 0.5s; /* var(--basic-trans); */
+
+  --slider-size: 26;
+}
+
+/* BASIC */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+/* HEADER */
+
+.header {
+  display: none;
+}
+
+.nav-items,
+.footer {
+  color: var(--light-color);
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  color: var(--light-color);
+}
+
+.nav-items {
+  width: 100vw;
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+.nav-item {
+  padding: 1vw;
+  min-width: 8vw;
+  text-align: center;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#plain:checked ~ .nav-items .nav-item1,
+#plain2:checked ~ .nav-items .nav-item2,
+#it:checked ~ .nav-items .nav-item3,
+#black:checked ~ .nav-items .nav-item4,
+#adult:checked ~ .nav-items .nav-item5,
+#sad:checked ~ .nav-items .nav-item6,
+#smart:checked ~ .nav-items .nav-item7,
+#b:checked ~ .nav-items .nav-item8 {
+  cursor: auto;
+  text-decoration: underline;
+}
+
+/* MAIN */
+
+.main {
+  height: calc(var(--main-height) + var(--header-height));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+}
+
+/* wrappers */
+
+.wrapper {
+  display: flex;
+  margin-bottom: 4vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper,
+.slider,
+.inner,
+.slide {
+  width: var(--slider-width);
+  height: var(--slider-height);
+}
+
+.wrapper {
+  display: none;
+  height: var(--wrapper-height);
+}
+
+#plain:checked ~ .wrapper1 {
+  display: flex;
+}
+
+#plain2:checked ~ .wrapper2 {
+  display: flex;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.inner {
+  width: calc(var(--slider-width) * var(--slider-size));
+  display: flex;
+  transition: var(--slider-trans);
+}
+
+/* slides */
+
+.slide {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url(assets/plain/1.jpg);
+}
+.slide2 {
+  background-image: url(assets/plain/2.png);
+}
+.slide3 {
+  background-image: url(assets/plain/3.webp);
+}
+.slide4 {
+  background-image: url(assets/plain/4.jpg);
+}
+.slide5 {
+  background-image: url(assets/plain/5.jpg);
+}
+.slide6 {
+  background-image: url(assets/plain/6.jpg);
+}
+.slide7 {
+  background-image: url(assets/plain/7.jpg);
+}
+.slide8 {
+  background-image: url(assets/plain/8.jpg);
+}
+.slide9 {
+  background-image: url(assets/plain/9.jpg);
+}
+.slide10 {
+  background-image: url(assets/plain/10.jpg);
+}
+.slide11 {
+  background-image: url(assets/plain/11.jpg);
+}
+.slide12 {
+  background-image: url(assets/plain/12.jpg);
+}
+.slide13 {
+  background-image: url(assets/plain/13.jpg);
+}
+.slide14 {
+  background-image: url(assets/plain/14.jpg);
+}
+.slide15 {
+  background-image: url(assets/plain/15.jpg);
+}
+.slide16 {
+  background-image: url(assets/plain/16.jpg);
+}
+.slide17 {
+  background-image: url(assets/plain/17.jpg);
+}
+.slide18 {
+  background-image: url(assets/plain/18.jpg);
+}
+.slide19 {
+  background-image: url(assets/plain/19.jpg);
+}
+.slide20 {
+  background-image: url(assets/plain/20.jpg);
+}
+.slide21 {
+  background-image: url(assets/plain/21.jpg);
+}
+.slide22 {
+  background-image: url(assets/plain/22.jpg);
+}
+.slide23 {
+  background-image: url(assets/plain/23.jpg);
+}
+.slide24 {
+  background-image: url(assets/plain/24.jpg);
+}
+.slide25 {
+  background-image: url(assets/plain/25.jpg);
+}
+.slide26 {
+  background-image: url(assets/plain/26.jpg);
+}
+
+.slide27 {
+  background-image: url(assets/plain/27.jpg);
+}
+.slide28 {
+  background-image: url(assets/plain/28.jpg);
+}
+.slide29 {
+  background-image: url(assets/plain/29.jpg);
+}
+.slide30 {
+  background-image: url(assets/plain/30.jpg);
+}
+.slide31 {
+  background-image: url(assets/plain/31.jpg);
+}
+.slide32 {
+  background-image: url(assets/plain/32.jpg);
+}
+.slide33 {
+  background-image: url(assets/plain/33.jpg);
+}
+.slide34 {
+  background-image: url(assets/plain/34.jpg);
+}
+.slide35 {
+  background-image: url(assets/plain/35.jpg);
+}
+.slide36 {
+  background-image: url(assets/plain/36.jpg);
+}
+.slide37 {
+  background-image: url(assets/plain/37.jpg);
+}
+.slide38 {
+  background-image: url(assets/plain/38.jpg);
+}
+.slide39 {
+  background-image: url(assets/plain/39.jpg);
+}
+.slide40 {
+  background-image: url(assets/plain/40.jpg);
+}
+.slide41 {
+  background-image: url(assets/plain/41.jpg);
+}
+.slide42 {
+  background-image: url(assets/plain/42.jpg);
+}
+.slide43 {
+  background-image: url(assets/plain/43.jpg);
+}
+.slide44 {
+  background-image: url(assets/plain/44.jpg);
+}
+.slide45 {
+  background-image: url(assets/plain/45.jpg);
+}
+.slide46 {
+  background-image: url(assets/plain/46.jpg);
+}
+.slide47 {
+  background-image: url(assets/plain/47.jpg);
+}
+.slide48 {
+  background-image: url(assets/plain/48.jpg);
+}
+.slide49 {
+  background-image: url(assets/plain/49.jpg);
+}
+.slide50 {
+  background-image: url(assets/plain/50.jpg);
+}
+.slide51 {
+  background-image: url(assets/plain/51.jpg);
+}
+.slide52 {
+  background-image: url(assets/plain/52.jpg);
+}
+
+#slide2:checked ~ .slider .inner,
+#slide28:checked ~ .slider .inner {
+  margin-left: -100%;
+}
+#slide3:checked ~ .slider .inner,
+#slide29:checked ~ .slider .inner {
+  margin-left: -200%;
+}
+#slide4:checked ~ .slider .inner,
+#slide30:checked ~ .slider .inner {
+  margin-left: -300%;
+}
+#slide5:checked ~ .slider .inner,
+#slide31:checked ~ .slider .inner {
+  margin-left: -400%;
+}
+#slide6:checked ~ .slider .inner,
+#slide32:checked ~ .slider .inner {
+  margin-left: -500%;
+}
+#slide7:checked ~ .slider .inner,
+#slide33:checked ~ .slider .inner {
+  margin-left: -600%;
+}
+#slide8:checked ~ .slider .inner,
+#slide34:checked ~ .slider .inner {
+  margin-left: -700%;
+}
+#slide9:checked ~ .slider .inner,
+#slide35:checked ~ .slider .inner {
+  margin-left: -800%;
+}
+#slide10:checked ~ .slider .inner,
+#slide36:checked ~ .slider .inner {
+  margin-left: -900%;
+}
+#slide11:checked ~ .slider .inner,
+#slide37:checked ~ .slider .inner {
+  margin-left: -1000%;
+}
+#slide12:checked ~ .slider .inner,
+#slide38:checked ~ .slider .inner {
+  margin-left: -1100%;
+}
+#slide13:checked ~ .slider .inner,
+#slide39:checked ~ .slider .inner {
+  margin-left: -1200%;
+}
+#slide14:checked ~ .slider .inner,
+#slide40:checked ~ .slider .inner {
+  margin-left: -1300%;
+}
+#slide15:checked ~ .slider .inner,
+#slide41:checked ~ .slider .inner {
+  margin-left: -1400%;
+}
+#slide16:checked ~ .slider .inner,
+#slide42:checked ~ .slider .inner {
+  margin-left: -1500%;
+}
+#slide17:checked ~ .slider .inner,
+#slide43:checked ~ .slider .inner {
+  margin-left: -1600%;
+}
+#slide18:checked ~ .slider .inner,
+#slide44:checked ~ .slider .inner {
+  margin-left: -1700%;
+}
+#slide19:checked ~ .slider .inner,
+#slide45:checked ~ .slider .inner {
+  margin-left: -1800%;
+}
+#slide20:checked ~ .slider .inner,
+#slide46:checked ~ .slider .inner {
+  margin-left: -1900%;
+}
+#slide21:checked ~ .slider .inner,
+#slide47:checked ~ .slider .inner {
+  margin-left: -2000%;
+}
+#slide22:checked ~ .slider .inner,
+#slide48:checked ~ .slider .inner {
+  margin-left: -2100%;
+}
+#slide23:checked ~ .slider .inner,
+#slide49:checked ~ .slider .inner {
+  margin-left: -2200%;
+}
+#slide24:checked ~ .slider .inner,
+#slide50:checked ~ .slider .inner {
+  margin-left: -2300%;
+}
+#slide25:checked ~ .slider .inner,
+#slide51:checked ~ .slider .inner {
+  margin-left: -2400%;
+}
+#slide26:checked ~ .slider .inner,
+#slide52:checked ~ .slider .inner {
+  margin-left: -2500%;
+}
+
+/* bottom section */
+
+.bottom {
+  width: var(--slider-height);
+  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* output */
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: x-small;
+  font-style: normal;
+  color: var(--light-color);
+  -webkit-animation: circle-rotate 4s linear infinite;
+  animation: circle-rotate 4s linear infinite;
+}
+
+.left {
+  -webkit-transform-origin: 3vmin 1vmin;
+  transform-origin: 3vmin 1vmin;
+}
+
+.right {
+  -webkit-transform-origin: -4vmin 1vmin;
+  transform-origin: -4vmin 1vmin;
+}
+
+@-webkit-keyframes circle-rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+  }
+}
+
+@keyframes circle-rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.output {
+  margin-top: 3vh;
+  display: none;
+  z-index: 2;
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+  font-weight: 100;
+  color: var(--ctrl-color);
+}
+
+#slide1:checked ~ .bottom .output1,
+#slide2:checked ~ .bottom .output2,
+#slide3:checked ~ .bottom .output3,
+#slide4:checked ~ .bottom .output4,
+#slide5:checked ~ .bottom .output5,
+#slide6:checked ~ .bottom .output6,
+#slide7:checked ~ .bottom .output7,
+#slide8:checked ~ .bottom .output8,
+#slide9:checked ~ .bottom .output9,
+#slide10:checked ~ .bottom .output10,
+#slide11:checked ~ .bottom .output11,
+#slide12:checked ~ .bottom .output12,
+#slide13:checked ~ .bottom .output13,
+#slide14:checked ~ .bottom .output14,
+#slide15:checked ~ .bottom .output15,
+#slide16:checked ~ .bottom .output16,
+#slide17:checked ~ .bottom .output17,
+#slide18:checked ~ .bottom .output18,
+#slide19:checked ~ .bottom .output19,
+#slide20:checked ~ .bottom .output20,
+#slide21:checked ~ .bottom .output21,
+#slide22:checked ~ .bottom .output22,
+#slide23:checked ~ .bottom .output23,
+#slide24:checked ~ .bottom .output24,
+#slide25:checked ~ .bottom .output25,
+#slide26:checked ~ .bottom .output26,
+#slide27:checked ~ .bottom .output27,
+#slide28:checked ~ .bottom .output28,
+#slide29:checked ~ .bottom .output29,
+#slide30:checked ~ .bottom .output30,
+#slide31:checked ~ .bottom .output31,
+#slide32:checked ~ .bottom .output32,
+#slide33:checked ~ .bottom .output33,
+#slide34:checked ~ .bottom .output34,
+#slide35:checked ~ .bottom .output35,
+#slide36:checked ~ .bottom .output36,
+#slide37:checked ~ .bottom .output37,
+#slide38:checked ~ .bottom .output38,
+#slide39:checked ~ .bottom .output39,
+#slide40:checked ~ .bottom .output40,
+#slide41:checked ~ .bottom .output41,
+#slide42:checked ~ .bottom .output42,
+#slide43:checked ~ .bottom .output43,
+#slide44:checked ~ .bottom .output44,
+#slide45:checked ~ .bottom .output45,
+#slide46:checked ~ .bottom .output46,
+#slide47:checked ~ .bottom .output47,
+#slide48:checked ~ .bottom .output48,
+#slide49:checked ~ .bottom .output49,
+#slide50:checked ~ .bottom .output50,
+#slide51:checked ~ .bottom .output51,
+#slide52:checked ~ .bottom .output52 {
+  display: block;
+}
+
+/* controls */
+
+.input {
+  display: none;
+}
+
+.controls {
+  width: 53vh;
+  margin-top: 3vh;
+  margin-right: -2vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.label,
+.label::after {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.label {
+  width: 4vh;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: var(--basic-trans);
+}
+
+.label::after {
+  content: '';
+  width: 40%;
+  height: 40%;
+  background-color: var(--ctrl-color);
+  border: medium solid var(--ctrl-color);
+  transition: var(--basic-trans);
+  cursor: pointer;
+}
+
+.label:hover::after {
+  border: medium solid var(--light-color);
+  background-color: var(--light-color);
+}
+
+#slide1:checked ~ .bottom .label1,
+#slide2:checked ~ .bottom .label2,
+#slide3:checked ~ .bottom .label3,
+#slide4:checked ~ .bottom .label4,
+#slide5:checked ~ .bottom .label5,
+#slide6:checked ~ .bottom .label6,
+#slide7:checked ~ .bottom .label7,
+#slide8:checked ~ .bottom .label8,
+#slide9:checked ~ .bottom .label9,
+#slide10:checked ~ .bottom .label10,
+#slide11:checked ~ .bottom .label11,
+#slide12:checked ~ .bottom .label12,
+#slide13:checked ~ .bottom .label13,
+#slide14:checked ~ .bottom .label14,
+#slide15:checked ~ .bottom .label15,
+#slide16:checked ~ .bottom .label16,
+#slide17:checked ~ .bottom .label17,
+#slide18:checked ~ .bottom .label18,
+#slide19:checked ~ .bottom .label19,
+#slide20:checked ~ .bottom .label20,
+#slide21:checked ~ .bottom .label21,
+#slide22:checked ~ .bottom .label22,
+#slide23:checked ~ .bottom .label23,
+#slide24:checked ~ .bottom .label24,
+#slide25:checked ~ .bottom .label25,
+#slide26:checked ~ .bottom .label26,
+#slide27:checked ~ .bottom .label27,
+#slide28:checked ~ .bottom .label28,
+#slide29:checked ~ .bottom .label29,
+#slide30:checked ~ .bottom .label30,
+#slide31:checked ~ .bottom .label31,
+#slide32:checked ~ .bottom .label32,
+#slide33:checked ~ .bottom .label33,
+#slide34:checked ~ .bottom .label34,
+#slide35:checked ~ .bottom .label35,
+#slide36:checked ~ .bottom .label36,
+#slide37:checked ~ .bottom .label37,
+#slide38:checked ~ .bottom .label38,
+#slide39:checked ~ .bottom .label39,
+#slide40:checked ~ .bottom .label40,
+#slide41:checked ~ .bottom .label41,
+#slide42:checked ~ .bottom .label42,
+#slide43:checked ~ .bottom .label43,
+#slide44:checked ~ .bottom .label44,
+#slide45:checked ~ .bottom .label45,
+#slide46:checked ~ .bottom .label46,
+#slide47:checked ~ .bottom .label47,
+#slide48:checked ~ .bottom .label48,
+#slide49:checked ~ .bottom .label49,
+#slide50:checked ~ .bottom .label50,
+#slide51:checked ~ .bottom .label51,
+#slide52:checked ~ .bottom .label52 {
+  cursor: auto;
+}
+
+#slide1:checked ~ .bottom .label1::after,
+#slide2:checked ~ .bottom .label2::after,
+#slide3:checked ~ .bottom .label3::after,
+#slide4:checked ~ .bottom .label4::after,
+#slide5:checked ~ .bottom .label5::after,
+#slide6:checked ~ .bottom .label6::after,
+#slide7:checked ~ .bottom .label7::after,
+#slide8:checked ~ .bottom .label8::after,
+#slide9:checked ~ .bottom .label9::after,
+#slide10:checked ~ .bottom .label10::after,
+#slide11:checked ~ .bottom .label11::after,
+#slide12:checked ~ .bottom .label12::after,
+#slide13:checked ~ .bottom .label13::after,
+#slide14:checked ~ .bottom .label14::after,
+#slide15:checked ~ .bottom .label15::after,
+#slide16:checked ~ .bottom .label16::after,
+#slide17:checked ~ .bottom .label17::after,
+#slide18:checked ~ .bottom .label18::after,
+#slide19:checked ~ .bottom .label19::after,
+#slide20:checked ~ .bottom .label20::after,
+#slide21:checked ~ .bottom .label21::after,
+#slide22:checked ~ .bottom .label22::after,
+#slide23:checked ~ .bottom .label23::after,
+#slide24:checked ~ .bottom .label24::after,
+#slide25:checked ~ .bottom .label25::after,
+#slide26:checked ~ .bottom .label26::after,
+#slide27:checked ~ .bottom .label27::after,
+#slide28:checked ~ .bottom .label28::after,
+#slide29:checked ~ .bottom .label29::after,
+#slide30:checked ~ .bottom .label30::after,
+#slide31:checked ~ .bottom .label31::after,
+#slide32:checked ~ .bottom .label32::after,
+#slide33:checked ~ .bottom .label33::after,
+#slide34:checked ~ .bottom .label34::after,
+#slide35:checked ~ .bottom .label35::after,
+#slide36:checked ~ .bottom .label36::after,
+#slide37:checked ~ .bottom .label37::after,
+#slide38:checked ~ .bottom .label38::after,
+#slide39:checked ~ .bottom .label39::after,
+#slide40:checked ~ .bottom .label40::after,
+#slide41:checked ~ .bottom .label41::after,
+#slide42:checked ~ .bottom .label42::after,
+#slide43:checked ~ .bottom .label43::after,
+#slide44:checked ~ .bottom .label44::after,
+#slide45:checked ~ .bottom .label45::after,
+#slide46:checked ~ .bottom .label46::after,
+#slide47:checked ~ .bottom .label47::after,
+#slide48:checked ~ .bottom .label48::after,
+#slide49:checked ~ .bottom .label49::after,
+#slide50:checked ~ .bottom .label50::after,
+#slide51:checked ~ .bottom .label51::after,
+#slide52:checked ~ .bottom .label52::after {
+  border: medium solid var(--ctrl-color);
+  background-color: var(--bg-color);
+  cursor: auto;
+}
+
+/* FOOTER */
+
+.footer {
+  height: var(--footer-height);
+  background-color: var(--main-color);
+}
