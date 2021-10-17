@@ -678,3 +678,33 @@ html {
   height: var(--footer-height);
   background-color: var(--main-color);
 }
+
+@media (max-width: 560px) {
+  body {
+    height: 100vh;
+  }
+  .bottom {
+    width: 95vw;
+    flex-direction: column;
+  }
+  .wrapper,
+  .slider,
+  .slide {
+    width: 95vw;
+    height: 80vh;
+  }
+  .controls {
+    margin-right: 0;
+    width: 95vw;
+  }
+  .inner {
+    width: calc(95vh * var(--slider-size));
+  }
+  .main {
+    height: 98vh;
+    justify-content: start;
+  }
+  .footer {
+    height: 2vh;
+  }
+}
