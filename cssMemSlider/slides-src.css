@@ -1,0 +1,431 @@
+/* plain section */
+
+.slide1 {
+  background-image: url(assets/plain/1.jpg);
+}
+.slide2 {
+  background-image: url(assets/plain/2.png);
+}
+.slide3 {
+  background-image: url(assets/plain/3.webp);
+}
+.slide4 {
+  background-image: url(assets/plain/4.jpg);
+}
+.slide5 {
+  background-image: url(assets/plain/5.jpg);
+}
+.slide6 {
+  background-image: url(assets/plain/6.jpg);
+}
+.slide7 {
+  background-image: url(assets/plain/7.jpg);
+}
+.slide8 {
+  background-image: url(assets/plain/8.jpg);
+}
+.slide9 {
+  background-image: url(assets/plain/9.jpg);
+}
+.slide10 {
+  background-image: url(assets/plain/10.jpg);
+}
+.slide11 {
+  background-image: url(assets/plain/11.jpg);
+}
+.slide12 {
+  background-image: url(assets/plain/12.jpg);
+}
+.slide13 {
+  background-image: url(assets/plain/13.jpg);
+}
+.slide14 {
+  background-image: url(assets/plain/14.jpg);
+}
+.slide15 {
+  background-image: url(assets/plain/15.jpg);
+}
+.slide16 {
+  background-image: url(assets/plain/16.jpg);
+}
+.slide17 {
+  background-image: url(assets/plain/17.jpg);
+}
+.slide18 {
+  background-image: url(assets/plain/18.jpg);
+}
+.slide19 {
+  background-image: url(assets/plain/19.jpg);
+}
+.slide20 {
+  background-image: url(assets/plain/20.jpg);
+}
+.slide21 {
+  background-image: url(assets/plain/21.jpg);
+}
+.slide22 {
+  background-image: url(assets/plain/22.jpg);
+}
+.slide23 {
+  background-image: url(assets/plain/23.jpg);
+}
+.slide24 {
+  background-image: url(assets/plain/24.jpg);
+}
+.slide25 {
+  background-image: url(assets/plain/25.jpg);
+}
+.slide26 {
+  background-image: url(assets/plain/26.jpg);
+}
+
+/* plain2 section */
+
+.slide27 {
+  background-image: url(assets/plain/27.jpg);
+}
+.slide28 {
+  background-image: url(assets/plain/28.jpg);
+}
+.slide29 {
+  background-image: url(assets/plain/29.jpg);
+}
+.slide30 {
+  background-image: url(assets/plain/30.jpg);
+}
+.slide31 {
+  background-image: url(assets/plain/31.jpg);
+}
+.slide32 {
+  background-image: url(assets/plain/32.jpg);
+}
+.slide33 {
+  background-image: url(assets/plain/33.jpg);
+}
+.slide34 {
+  background-image: url(assets/plain/34.jpg);
+}
+.slide35 {
+  background-image: url(assets/plain/35.jpg);
+}
+.slide36 {
+  background-image: url(assets/plain/36.jpg);
+}
+.slide37 {
+  background-image: url(assets/plain/37.jpg);
+}
+.slide38 {
+  background-image: url(assets/plain/38.jpg);
+}
+.slide39 {
+  background-image: url(assets/plain/39.jpg);
+}
+.slide40 {
+  background-image: url(assets/plain/40.jpg);
+}
+.slide41 {
+  background-image: url(assets/plain/41.jpg);
+}
+.slide42 {
+  background-image: url(assets/plain/42.jpg);
+}
+.slide43 {
+  background-image: url(assets/plain/43.jpg);
+}
+.slide44 {
+  background-image: url(assets/plain/44.jpg);
+}
+.slide45 {
+  background-image: url(assets/plain/45.jpg);
+}
+.slide46 {
+  background-image: url(assets/plain/46.jpg);
+}
+.slide47 {
+  background-image: url(assets/plain/47.jpg);
+}
+.slide48 {
+  background-image: url(assets/plain/48.jpg);
+}
+.slide49 {
+  background-image: url(assets/plain/49.jpg);
+}
+.slide50 {
+  background-image: url(assets/plain/50.jpg);
+}
+.slide51 {
+  background-image: url(assets/plain/51.jpg);
+}
+.slide52 {
+  background-image: url(assets/plain/52.jpg);
+}
+
+/* it section */
+
+.slide53 {
+  background-image: url(assets/it/1.png);
+}
+.slide54 {
+  background-image: url(assets/it/2.jpg);
+}
+.slide55 {
+  background-image: url(assets/it/3.jpg);
+}
+.slide56 {
+  background-image: url(assets/it/4.jpg);
+}
+.slide57 {
+  background-image: url(assets/it/5.jpg);
+}
+.slide58 {
+  background-image: url(assets/it/6.jpg);
+}
+.slide59 {
+  background-image: url(assets/it/7.jpg);
+}
+.slide60 {
+  background-image: url(assets/it/8.jpg);
+}
+.slide61 {
+  background-image: url(assets/it/9.jpg);
+}
+.slide62 {
+  background-image: url(assets/it/10.jpg);
+}
+.slide63 {
+  background-image: url(assets/it/11.jpg);
+}
+.slide64 {
+  background-image: url(assets/it/12.jpg);
+}
+.slide65 {
+  background-image: url(assets/it/13.jpg);
+}
+.slide66 {
+  background-image: url(assets/it/14.jpg);
+}
+.slide67 {
+  background-image: url(assets/it/15.jpg);
+}
+.slide68 {
+  background-image: url(assets/it/16.jpg);
+}
+.slide69 {
+  background-image: url(assets/it/17.jpg);
+}
+.slide70 {
+  background-image: url(assets/it/18.jpg);
+}
+.slide71 {
+  background-image: url(assets/it/19.jpg);
+}
+.slide72 {
+  background-image: url(assets/it/20.jpg);
+}
+.slide73 {
+  background-image: url(assets/it/21.jpg);
+}
+.slide74 {
+  background-image: url(assets/it/22.jpg);
+}
+.slide75 {
+  background-image: url(assets/it/23.jpg);
+}
+.slide76 {
+  background-image: url(assets/it/24.jpg);
+}
+.slide77 {
+  background-image: url(assets/it/25.jpg);
+}
+
+/* black section */
+
+.slide78 {
+  background-image: url(assets/black/1.jpg);
+}
+.slide79 {
+  background-image: url(assets/black/2.jpg);
+}
+.slide80 {
+  background-image: url(assets/black/3.jpg);
+}
+.slide81 {
+  background-image: url(assets/black/4.jpg);
+}
+.slide82 {
+  background-image: url(assets/black/5.jpg);
+}
+.slide83 {
+  background-image: url(assets/black/6.jpg);
+}
+.slide84 {
+  background-image: url(assets/black/7.jpg);
+}
+.slide85 {
+  background-image: url(assets/black/8.jpg);
+}
+.slide86 {
+  background-image: url(assets/black/9.jpg);
+}
+.slide87 {
+  background-image: url(assets/black/10.jpg);
+}
+.slide88 {
+  background-image: url(assets/black/11.jpg);
+}
+.slide89 {
+  background-image: url(assets/black/12.jpg);
+}
+.slide90 {
+  background-image: url(assets/black/13.jpg);
+}
+
+/* adult section */
+
+.slide91 {
+  background-image: url(assets/adult/1.webp);
+}
+.slide92 {
+  background-image: url(assets/adult/2.jpeg);
+}
+.slide93 {
+  background-image: url(assets/adult/3.webp);
+}
+.slide94 {
+  background-image: url(assets/adult/4.jpg);
+}
+.slide95 {
+  background-image: url(assets/adult/5.jpg);
+}
+.slide96 {
+  background-image: url(assets/adult/6.jpg);
+}
+.slide97 {
+  background-image: url(assets/adult/7.jpg);
+}
+.slide98 {
+  background-image: url(assets/adult/8.jpeg);
+}
+.slide99 {
+  background-image: url(assets/adult/9.jpg);
+}
+.slide100 {
+  background-image: url(assets/adult/10.jpg);
+}
+.slide101 {
+  background-image: url(assets/adult/11.jpg);
+}
+.slide102 {
+  background-image: url(assets/adult/12.jpg);
+}
+.slide103 {
+  background-image: url(assets/adult/13.jpg);
+}
+.slide104 {
+  background-image: url(assets/adult/14.jpg);
+}
+.slide105 {
+  background-image: url(assets/adult/15.jpg);
+}
+
+/* sad section */
+
+.slide106 {
+  background-image: url(assets/sad/1.jpeg);
+}
+.slide107 {
+  background-image: url(assets/sad/2.jpg);
+}
+.slide108 {
+  background-image: url(assets/sad/3.jpg);
+}
+.slide109 {
+  background-image: url(assets/sad/4.jpg);
+}
+.slide110 {
+  background-image: url(assets/sad/5.jpg);
+}
+.slide111 {
+  background-image: url(assets/sad/6.jpg);
+}
+.slide112 {
+  background-image: url(assets/sad/7-1.webp);
+}
+.slide113 {
+  background-image: url(assets/sad/7.jpg);
+}
+.slide114 {
+  background-image: url(assets/sad/8.jpg);
+}
+.slide115 {
+  background-image: url(assets/sad/9.png);
+}
+.slide116 {
+  background-image: url(assets/sad/10.jpg);
+}
+.slide117 {
+  background-image: url(assets/sad/11.jpg);
+}
+
+/* smart section */
+
+.slide118 {
+  background-image: url(assets/smart/1.jpg);
+}
+.slide119 {
+  background-image: url(assets/smart/2.jpg);
+}
+.slide120 {
+  background-image: url(assets/smart/3.jpg);
+}
+.slide121 {
+  background-image: url(assets/smart/4.jpg);
+}
+.slide122 {
+  background-image: url(assets/smart/5.jpg);
+}
+.slide123 {
+  background-image: url(assets/smart/6.jpg);
+}
+.slide124 {
+  background-image: url(assets/smart/7.jpg);
+}
+.slide125 {
+  background-image: url(assets/smart/8.jpeg);
+}
+.slide126 {
+  background-image: url(assets/smart/9.jpg);
+}
+
+/* b section */
+
+.slide127 {
+  background-image: url(assets/b/1.jpg);
+}
+.slide128 {
+  background-image: url(assets/b/2.jpg);
+}
+.slide129 {
+  background-image: url(assets/b/3.jpg);
+}
+.slide130 {
+  background-image: url(assets/b/4.jpg);
+}
+.slide131 {
+  background-image: url(assets/b/5.jpg);
+}
+.slide132 {
+  background-image: url(assets/b/6.jpg);
+}
+.slide133 {
+  background-image: url(assets/b/7.jpg);
+}
+.slide134 {
+  background-image: url(assets/b/8.jpg);
+}
+.slide135 {
+  background-image: url(assets/b/9.jpg);
+}
+.slide136 {
+  background-image: url(assets/b/10.jpg);
+}

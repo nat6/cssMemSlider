@@ -1,0 +1,20 @@
+/* VARIABLES */
+
+:root {
+  --bg-color: rgb(119, 121, 139); /* var(--bg-color); */
+  --main-color: #080a0e; /* var(--main-color); */
+  --ctrl-color: #0a2a52; /* var(--ctrl-color); */
+  --light-color: rgb(194, 194, 206); /* var(--light-color); */
+
+  --header-height: 9vh; /* var(--header-height); */
+  --main-height: 85vh; /* var(--main-height); */
+  --wrapper-height: 73vh; /* var(--wrapper-height); */
+  --slider-width: 55vw; /* var(--slider-width); */
+  --slider-height: 62vh; /* var(--slider-height); */
+  --footer-height: 6vh; /* var(--footer-height); */
+
+  --slider-trans: ease-in-out 1s; /* var(--slider-trans); */
+  --basic-trans: linear 0.5s; /* var(--basic-trans); */
+
+  --slider-size: 26;
+}

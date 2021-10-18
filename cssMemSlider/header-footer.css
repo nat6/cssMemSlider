@@ -1,0 +1,80 @@
+/* HEADER */
+
+.header {
+  display: none;
+}
+
+.nav-items,
+.address {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  color: var(--light-color);
+  background-color: var(--main-color);
+}
+
+.nav-items {
+  width: 100vw;
+  height: var(--header-height);
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  padding: 1vw;
+  min-width: 8vw;
+  text-align: center;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#plain:checked ~ .nav-items .nav-item1,
+#plain2:checked ~ .nav-items .nav-item2,
+#it:checked ~ .nav-items .nav-item3,
+#black:checked ~ .nav-items .nav-item4,
+#adult:checked ~ .nav-items .nav-item5,
+#sad:checked ~ .nav-items .nav-item6,
+#smart:checked ~ .nav-items .nav-item7,
+#b:checked ~ .nav-items .nav-item8 {
+  /* переключаем активный пункт меню при клике по чекбоксу */
+  cursor: auto;
+  text-decoration: underline;
+}
+
+#plain:checked ~ .wrapper1,
+#plain2:checked ~ .wrapper2,
+#it:checked ~ .wrapper3,
+#black:checked ~ .wrapper4,
+#adult:checked ~ .wrapper5,
+#sad:checked ~ .wrapper6,
+#smart:checked ~ .wrapper7,
+#b:checked ~ .wrapper8 {
+  /* делаем видимым текущий блок  */
+  display: flex;
+}
+
+/* FOOTER */
+
+.footer {
+  height: var(--footer-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+.footer__inner {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  font-weight: 100;
+  font-size: x-small;
+  text-decoration: none;
+}
