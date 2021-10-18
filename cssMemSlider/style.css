@@ -808,6 +808,11 @@ html {
   font-size: medium;
   font-weight: 100;
   color: var(--ctrl-color);
+  -webkit-animation: circle-rotate 1s;
+  -moz-animation: circle-rotate 1s;
+  -o-animation: circle-rotate 1s;
+  -ms-animation: circle-rotate 1s;
+  animation: circle-rotate 1s;
 }
 
 #slide1:checked ~ .bottom .output1,
